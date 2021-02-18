@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -100;
+    filter: brightness(50%);
+}
+
+.presentacion {
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.presentacion p {
+    font-size: 3rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+#saludo {
+    display: inline;
+}
+
+#apellidos {
+    font-weight: bold;
+}
+
+#carrera {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+#presentacion-soy {
+    display: inline;
+}
+
+p {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.presentacion-pt1 {
+    opacity: 0;
+    animation-name: aparecer;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+
+.presentacion-pt2 {
+    opacity: 0;
+    animation-name: aparecer;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-delay: 1s;
+}
+
+.presentacion-pt3 {
+    opacity: 0;
+    animation-name: aparecer;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-delay: 2s;
+}
+
+#landingpage-background {
+    display: inline;
+}
+
+.arrows-down {
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+}
+
+.arrow {
+    width: 50px;
+}
+
+#arrow1 {
+    opacity: 0;
+    display: block;
+    animation: aparecer;
+    animation-duration: 0.75s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#arrow2 {
+    opacity: 0;
+    display: block;
+    animation: aparecer;
+    animation-duration: 0.75s;
+    animation-delay: 3.2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.fecha, .titulo-dato, .texto-dato {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+
+.fecha {
+    margin-bottom: 8px;
+}
+
+.titulo-dato {
+    color: green;
+    margin-bottom: 15px;
+}
+
+.texto-dato {
+    line-height: 1.5;
+}
+
+.fecha {
+    font-weight: lighter;
+    font-size: 1.25rem;
+}
+
+.titulo-seccion {
+    /* background-color: aqua; */
+    font-family: 'Raleway', sans-serif;
+    color: green;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.dato {
+    width: 33vw;
+    /* background-color: blanchedalmond; */
+    margin: 0 5vw;
+}
+
+.datos {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.seccion {
+    padding-bottom: 30px;
+}
+
+.icon {
+    width: 100px;
+}
+
+.imagen-seccion {   
+    position: relative;
+    display: inline-block;
+    left: 50vw;
+    transform: translateX(-58%);
+    padding-bottom: 30px;
+}
+
+.segundo {
+    padding-top: 40px;
+}
+
+#ajustar1 {
+    width: auto;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

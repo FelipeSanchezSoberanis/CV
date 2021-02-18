@@ -1,171 +1,93 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
     <head>
         <meta charset="UTF-8">
-        <title>Curriculum Vitae</title>
+        <title>Felipe Sánchez Soberanis</title>
+        <link rel="stylesheet" href="styles.css">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet"> 
+        <!-- font-family: 'Raleway', sans-serif; -->
     </head>
-
     <body>
+        <div>
+            <img src="media/background.jpg" alt="" class="background">
+            <div class="arrows-down">
+                <img src="media/arrow-down.png" alt="" class="arrow" id="arrow1">
+                <img src="media/arrow-down.png" alt="" class="arrow" id="arrow2">
+            </div>
+        </div>
 
-        <table>
-            <tr>
-                <td><img src="media/Foto.png" alt="Mi foto" height="150"></td>
-                <td></td><td></td><td></td><td></td><td></td>
-                <td>
-                    <h1>Felipe Sánchez Soberanis</h1>
-                    <p><em>Estudiante de Ingeniería Mecatrónica</em></p>
-                </td>
-            </tr>
-        </table>
+        <div class="presentacion">
+            <p id="saludo" class="presentacion-pt1">Hola</p>
+            <p id="presentacion-soy" class="presentacion-pt2">, soy</p>
+            <p id="nombre" class="presentacion-pt2">Felipe</p>
+            <p id="apellidos" class="presentacion-pt2">Sánchez Soberanis</p>
+            <p id="carrera" class="presentacion-pt3">Estudiante de Ingeniería Mecatrónica</p>
+        </div>
 
-        <hr>
+        <div class="seccion">
+            <h1 class="titulo-seccion">Educación</h1>
+            <div class="imagen-seccion">
+                <img src="media/school-icon.jpg" alt="" class="icon">
+            </div>
+            <div class="datos">
+                <div class="dato">
+                    <h2 class="fecha">2015 - 2018</h2>
+                    <h2 class="titulo-dato">Preparatoria</h2>
+                    <p class="texto-dato">Estudié la preparatoria en el <a href="https://www.piaget.edu.mx/index.php/niveles/preparatoria">Centro Educativo Piaget A.C.</a></p>
+                </div>
+                <div class="dato">
+                    <h2 class="fecha">2018 - actualidad</h2>
+                    <h2 class="titulo-dato">Licenciatura</h2>
+                    <p class="texto-dato">Actualmente me encuentro cursando la carrera de Ingeniería Mecatrónica por la <a href="https://www.uady.mx/">Universidad Autónoma de Yucatán</a>, en la <a href="https://www.ingenieria.uady.mx/index.php">Facultad de Ingeniería</a>.</p>
+                </div>
+            </div>
+        </div>
 
-        <h2>Educación</h2>
+        <div class="seccion">
+            <h1 class="titulo-seccion">Idiomas</h1>
+            <div class="imagen-seccion">
+                <img src="media/language-icon.jpg" alt="" class="icon">
+            </div>
+            <div class="datos">
+                <div class="dato">
+                    <h2 class="fecha">2018</h2>
+                    <h2 class="titulo-dato">Inglés</h2>
+                    <p class="texto-dato">Fui certificado nivel C2 por Cambridge.</a></p>
+                </div>
+                <div class="dato">
+                    <h2 class="fecha">Actualidad</h2>
+                    <h2 class="titulo-dato">Alemán</h2>
+                    <p class="texto-dato">Actualmente me encuentro cursando el nivel A2.2 en el <a href="https://www.aakmid.com/">Instituto Kraeft</a>.</p>
+                </div>
+            </div>
+            <div class="datos segundo">
+                <div class="dato" id="ajustar1">
+                    <h2 class="fecha">Siempre</h2>
+                    <h2 class="titulo-dato">Español</h2>
+                    <p class="texto-dato">Idioma materno.</a></p>
+                </div>
+            </div>
+        </div>
 
-        <table>
-            <tr>
-                <td>2015 - 2018</td>
-                <td></td><td></td><td></td><td></td><td></td>
-                <td><strong>Preparatoria</strong></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td><td></td><td></td><td></td><td></td>
-                <td>Centro Educativo Piaget A.C.</td>
-            </tr>
-            <tr>
-                <td>2018 - Actualidad</td>
-                <td></td><td></td><td></td><td></td><td></td>
-                <td><strong>Ingeniería Mecatrónica</strong></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td><td></td><td></td><td></td><td></td>
-                <td>Por la <a href="https://www.uady.mx/">Universidad Autónoma de Yucatán</a>, en la <a href="https://www.ingenieria.uady.mx/index.php">Facultad de Ingeniería</a>. Actualmente cursando el sexto semestre.</td>
-            </tr>
-        </table>
-
-        <hr>
-
-        <h2>Idiomas</h2>
-
-        <table>
-            <tr>
-                <td>2019</td>
-                <td></td><td></td><td></td><td></td><td></td>
-                <td><strong>Inglés</strong></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td><td></td><td></td><td></td><td></td>
-                <td>Nivel C2 certificado por Cambridge.</td>
-            </tr>
-            <tr>
-                <td>Actualidad</td>
-                <td></td><td></td><td></td><td></td><td></td>
-                <td><strong>Alemán</strong></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td><td></td><td></td><td></td><td></td>
-                <td>Cursando el nivel A2.2 en <a href="https://www.aakmid.com/">Instituto Kraeft</a>.</td>
-            </tr>
-            <tr>
-                <td>Actualidad</td>
-                <td></td><td></td><td></td><td></td><td></td>
-                <td><strong>Español</strong></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td><td></td><td></td><td></td><td></td>
-                <td>Idioma materno.</td>
-            </tr>
-        </table>
-
-        <hr>
-
-        <h2>Experiencia previa</h2>
-
-        <table>
-            <tr>
-                <td>2017 - Actualidad</td>
-                <td></td><td></td><td></td><td></td><td></td>
-                <td><strong>Asesorías particulares</strong></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td><td></td><td></td><td></td><td></td>
-                <td>Maestro de materias del área de matemáticas en niveles secundaria, preparatoria y principios de licenciatura.</td>
-            </tr>
-            <tr>
-                <td>2019 - 2020</td>
-                <td></td><td></td><td></td><td></td><td></td>
-                <td><strong><a href="https://www.instagram.com/centrodeasesoriasintegrales/">Centro de Asesorías Integrales</a></strong></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td><td></td><td></td><td></td><td></td>
-                <td>Maestro de matemáticas, física, probabilidad y álgebra en niveles secundaria y preparatoria.</td>
-            </tr>
-        </table>
-
-        <hr>
-
-        <h2>Actividades extracurriculares</h2>
-
-        <table>
-            <tr>
-                <td>2018</td>
-                <td></td><td></td><td></td><td></td><td></td>
-                <td><strong>CAMS</strong></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td><td></td><td></td><td></td><td></td>
-                <td><a href="https://intranet.matematicas.uady.mx/cams/anteriores/11-ediciones/48-edicion-2018/46-ganadores-del-48-concurso-anual-de-matematicas-del-sureste-2018">Cuarto lugar</a> en el Concurso Anual de Matemáticas del Sureste.</td>
-            </tr>
-            <tr>
-                <td>2019 - 2020</td>
-                <td></td><td></td><td></td><td></td><td></td>
-                <td><strong>CanSat</strong></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td><td></td><td></td><td></td><td></td>
-                <td>Participación en el concurso <a href="http://peu.unam.mx/cansat.html">CanSat</a> de la UNAM, obteniendo el paso a la tercera fase, sin poder continuar debido a la pandemia.</td>
-            </tr>
-            <tr>
-                <td>Actualidad</td>
-                <td></td><td></td><td></td><td></td><td></td>
-                <td><strong>Curso de Web Developing</strong></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td><td></td><td></td><td></td><td></td>
-                <td>Tomando un curso de 55 horas sobre web developing.</td>
-            </tr>
-        </table>
-
-        <hr>
-
-        <h2>Software</h2>
-
-        <p>Paquetería Office, GeoGebra, Inkscape, GIMP, AutoCAD, OrCAD Capture, Pspice.</p>
-
-        <hr>
-
-        <h2>Contacto</h2>
-
-        <table>
-            <tr>
-                <td>Número:</td>
-                <td><a href="https://api.whatsapp.com/send/?phone=5219991223817&text&app_absent=0">9991223817</a></td>
-            </tr>
-            <tr>
-                <td>Correo:</td>
-                <td><a href="mailto: felipesaso2000@gmail.com">felipesaso2000@gmail.com</a></td>
-            </tr>
-        </table>
-
+        <div class="seccion">
+            <h1 class="titulo-seccion">Idiomas</h1>
+            <div class="imagen-seccion">
+                <img src="media/job-icon.jpg" alt="" class="icon">
+            </div>
+            <div class="datos">
+                <div class="dato">
+                    <h2 class="fecha">2018</h2>
+                    <h2 class="titulo-dato">Inglés</h2>
+                    <p class="texto-dato">Fui certificado nivel C2 por Cambridge.</a></p>
+                </div>
+                <div class="dato">
+                    <h2 class="fecha">Actualidad</h2>
+                    <h2 class="titulo-dato">Alemán</h2>
+                    <p class="texto-dato">Actualmente me encuentro cursando el nivel A2.2 en el <a href="https://www.aakmid.com/">Instituto Kraeft</a>.</p>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
