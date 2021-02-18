@@ -184,6 +184,63 @@ a:hover {
     width: auto;
 }
 
+.icon-too-big {
+    height: 80px;
+}
+
+.foot {
+    background-color: green;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-icon-image {
+    width: 50px;
+    display: block;
+}
+
+.foot-icon {
+    margin: 0 10px;
+}
+
+.white-background {
+    border-radius: 100%;
+    background-color: white;
+}
+
+.divisor-image-file {
+    filter: opacity(10%);
+}
+
+.divisor-image {
+    display: block;
+}
+
+.divisor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.software-icon-file {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 30px;
+}
+
+.software-icons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
 @keyframes aparecer {
     0% {
         opacity: 0;
