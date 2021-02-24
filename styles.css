@@ -249,3 +249,14 @@ a:hover {
         opacity: 1;
     }
 }
+
+/* section =========== */
+/* section Mobile view */
+/* section =========== */
+
+@media (max-width: 720px) {
+    .presentacion {
+        text-align: center;
+        left: 50%;
+    }
+}
